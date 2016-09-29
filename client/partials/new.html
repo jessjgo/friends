@@ -1,0 +1,11 @@
+<!-- <p>ADD PAGE</p> -->
+
+<div ng-controller="newController">
+<!-- 	{{ friends }} -->
+	<form>
+		<input type="text" ng-model="friendInfo.firstname"> First Name<br><br>
+		<input type="text" ng-model="friendInfo.lastname"> Last Name<br><br>
+		<input type="date" ng-model="friendInfo.birthday"> Birthday<br><br>
+		<input type="submit" value="Create" ng-click="createFriend()">
+	</form>
+</div>

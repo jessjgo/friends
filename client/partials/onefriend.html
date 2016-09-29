@@ -1,0 +1,11 @@
+<div ng-controller="onefriendController">
+<!-- 	{{edit}} -->
+	<ul>
+		<li>{{ friendInfo.firstname }}</li>
+		<li>{{ friendInfo.lastname }}</li>
+		<li>{{ friendInfo.birthday | date: 'short' }}</li>
+		<li>{{ friendInfo.created_at | date: 'short' }}</li>
+	</ul>
+	<p>user added</p>
+	<button type="button" ng-click="goHome()">Go Home</button>
+</div>

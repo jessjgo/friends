@@ -1,0 +1,11 @@
+<!-- <p>EDIT PAGE</p> -->
+
+<div ng-controller="editController">
+<!-- 	{{edit}} -->
+	<form>
+		<input type="text" ng-model="friendInfo.firstname"> First Name<br><br>
+		<input type="text" ng-model="friendInfo.lastname"> Last Name<br><br>
+		<input type="date" ng-model="friendInfo.birthday"> Birthday<br><br>
+		<input type="button" value="Update" ng-click="updateFriend()">
+	</form>
+</div>
